@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: joke-api
-          image: joke-api:latest
+          image: hothaifaz11/jokes-api:v12
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
